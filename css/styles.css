@@ -113,8 +113,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .hero-button {
   color: #ffffff;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -136,7 +138,8 @@ body {
 /* .distinction {
   background-color: var(--primary-white-color);
 } */
-.distinction-title {
+.distinction-title,
+.filter-title {
   display: none;
 }
 .distinction-header {
@@ -243,8 +246,10 @@ body {
 /* filter */
 /* .filter {
 } */
+
 .filter-bar-button {
   color: #212121;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
