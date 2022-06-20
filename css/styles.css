@@ -45,24 +45,31 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.header.word-web,
-.footer.word-web {
+.word-web,
+.word-web {
   color: var(--accent-color);
 }
-.header.word-studio {
+header .word-studio {
   color: #000000;
 }
-.footer.word-studio {
+.footer .word-studio {
   color: var(--primary-white-color);
 }
-.logo .header:hover,
+/* .logo .header:hover,
 .logo .header:focus,
 .logo .header:active,
 .logo .footer:hover,
 .logo .footer:focus,
 .logo .footer:active {
   color: var(--accent-color);
+} */
+
+.navigation span:hover,
+.navigation span:active,
+.navigation span:focus {
+  color: var(--accent-color);
 }
+
 /* site navi */
 
 .list {
@@ -77,12 +84,17 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link.current {
+.site-nav .current {
   color: var(--accent-color);
 }
-.site-nav.list :hover,
+/* .site-nav.list :hover,
 .site-nav.list :focus,
 .site-nav.list :active {
+  color: var(--accent-color);
+} */
+.site-nav a:hover,
+.site-nav a:active,
+.site-nav a:focus {
   color: var(--accent-color);
 }
 
@@ -95,11 +107,17 @@ body {
   line-height: 1.14px;
   letter-spacing: 0.02em;
 }
-.site-contact.list :hover,
+/* .site-contact.list :hover,
 .site-contact.list :focus,
 .site-contact.list :active {
   color: var(--accent-color);
+} */
+.site-contact a:hover,
+.site-contact a:focus,
+.site-contact a:active {
+  color: var(--accent-color);
 }
+
 /* hero */
 .hero {
   background-color: var(--footer-background-color);
@@ -238,9 +256,14 @@ body {
 .physical-address:hover {
   color: var(--accent-color);
 } */
-.adress .list :focus,
+/* .adress .list :focus,
 .adress .list :active,
 .adress .list :hover {
+  color: var(--accent-color);
+} */
+.adress a:hover,
+.adress a:focus,
+.adress a:active {
   color: var(--accent-color);
 }
 /* filter */
