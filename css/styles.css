@@ -157,7 +157,8 @@ header .word-studio {
   background-color: var(--primary-white-color);
 } */
 .distinction-title,
-.filter-title {
+.filter-title,
+.work-description {
   display: none;
 }
 .distinction-header {
@@ -172,9 +173,11 @@ header .word-studio {
   letter-spacing: 0.03em;
 }
 /* occupation */
+
 /* .occupation {
     background-color: var(--primary-white-color);
 } */
+
 .occupation-title,
 .our-team-title {
   color: var(--title-text-color);
@@ -267,8 +270,6 @@ header .word-studio {
   color: var(--accent-color);
 }
 /* filter */
-/* .filter {
-} */
 
 .filter-bar-button {
   color: #212121;
@@ -290,38 +291,28 @@ header .word-studio {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
+.work-link {
+  text-decoration: none;
+}
+
+.work-link:hover,
+.work-link:focus,
+.work-link:active {
+  color: var(--accent-color);
+}
+
+.work-group,
+.work-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .title-image {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  /* cursor: pointer; */
-}
-.filter-group {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-/* .filter-images:hover,
-.filter-images:focus,
-.filter-images:active {
-  color: var(--accent-color);
-  cursor: pointer;
-} */
-/* .filter .list :hover,
-.filter .list :focus,
-.filter .list :active {
-  color: var(--accent-color);
-  cursor: pointer;
-} */
-.filter-group:hover,
-.filter-group:focus,
-.filter-group:active {
-  color: var(--accent-color);
-  cursor: pointer;
-}
-.filter-images {
-  cursor: pointer;
 }
