@@ -139,6 +139,9 @@ header .word-studio {
   color: #ffffff;
 }
 .hero-button {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
@@ -151,7 +154,8 @@ header .word-studio {
 
   color: #ffffff;
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  /* border-color: var(--accent-color); */
+  border-color: transparent;
 }
 .hero-button:focus,
 .hero-button:active,
@@ -292,9 +296,13 @@ header .word-studio {
 /* filter */
 
 .filter-bar-button {
+  display: inline-block;
+  padding: 6px 22px;
+  min-width: auto;
+  border-radius: 4px;
+
   text-align: center;
   cursor: pointer;
-  border-radius: 4px;
 
   font-family: inherit;
   font-weight: 500;
@@ -304,14 +312,15 @@ header .word-studio {
 
   background-color: #f5f4fa;
   color: #212121;
-  border-color: #f5f4fa;
+  /* border-color: #f5f4fa; */
+  border-color: transparent;
 }
 .filter-bar-button:focus,
 .filter-bar-button:active,
 .filter-bar-button:hover {
   color: #ffffff;
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  /* border-color: var(--accent-color); */
 }
 .work-link {
   text-decoration: none;
